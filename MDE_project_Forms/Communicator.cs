@@ -9,7 +9,7 @@ using static Hl7.Fhir.Model.Device;
 
 namespace MDE_project_Forms
 {
-    class Communicator : CommunicationInterface
+    public class Communicator : CommunicationInterface
     {
         FhirClient client;
 
